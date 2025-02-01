@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(167, 167, 167);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 68px;
+  background-color: white;
+}
+.logooo {
+  width: 160px;
+  height: 40px;
+}
+.search {
+  height: 20px;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+.holder {
+  background-color: rgb(210, 223, 206);
+  width: 40vw;
+  height: 26px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+.both {
+  gap: 10px;
+  border-radius: 8px;
+  background-color: rgb(210, 223, 206);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+.loginlogo {
+  height: 20px;
+}
+.login {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80px;
+  height: 36px;
+  gap: 6px;
+}
+.logintext {
+  font-size: 16px;
+}
+.arrow {
+  height: 20px;
+}
+.cartlogo {
+  height: 20px;
+}
+.carttext {
+  font-size: 16px;
+}
+.cart {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80px;
+  height: 36px;
+  gap: 6px;
+}
+.shoplogo {
+  height: 20px;
+}
+.shoptext {
+  font-size: 16px;
+}
+.shop {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 130px;
+  height: 36px;
+  gap: 6px;
+}
+.dotlogo {
+  height: 20px;
+}
+.dot {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80px;
+  height: 36px;
+}
+.imgg {
+  width: 100%;
+  margin: 10px 0px;
+}
+.outer {
+  display: flex;
+  justify-content: center;
+}
+.whitebox2 {
+  width: 99%;
+  height: 360px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  width: 200px;
+  height: 60px;
+  font-size: 22px;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+  cursor: pointer;
+}
+.box {
+  border: 2px solid rgb(217, 216, 216);
+  border-radius: 5px;
+  height: 280px;
+  width: 15%;
+}
+.textbottom {
+  font-size: 18px;
+}
+.bootm {
+  background-color: black;
+  color: rgb(89, 89, 89);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 60px 0px;
+  column-gap: 20px;
+  border-bottom: 2px solid rgb(89, 89, 89);
+  /* margin-bottom: 80px */
+}
+.bootomsec {
+  display: grid;
+  justify-content: space-evenly;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.lastsec {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.lastlink {
+  text-decoration: none;
+  color: white;
+}
+.about {
+  margin-bottom: 10px;
+}
